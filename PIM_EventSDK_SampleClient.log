@@ -1,0 +1,256 @@
+[2022-03-14 17:05:02,978] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:05:02,978] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:05:02,980] ERROR [main] LoggerImpl.error:81 - initialize
+-----------------------------------------------------
+java.io.FileNotFoundException: C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\eventsdk.properties (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.avaya.pim.eventsdk.common.EventSDKConfig.initialize(EventSDKConfig.java:72)
+	at com.avaya.pim.eventsdk.core.POMEventRegistrar.login(POMEventRegistrar.java:75)
+	at br.com.ti365.POMEventQueue.Application.main(Application.java:43)
+
+-----------------------------------------------------
+ 
+[2022-03-14 17:05:57,420] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:05:57,420] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:05:57,421] ERROR [main] LoggerImpl.error:81 - initialize
+-----------------------------------------------------
+java.io.FileNotFoundException: C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\eventsdk.properties (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.avaya.pim.eventsdk.common.EventSDKConfig.initialize(EventSDKConfig.java:72)
+	at com.avaya.pim.eventsdk.core.POMEventRegistrar.login(POMEventRegistrar.java:75)
+	at br.com.ti365.POMEventQueue.Application.main(Application.java:43)
+
+-----------------------------------------------------
+ 
+[2022-03-14 17:10:08,842] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:10:08,843] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:10:08,844] ERROR [main] LoggerImpl.error:81 - initialize
+-----------------------------------------------------
+java.io.FileNotFoundException: C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\eventsdk.properties (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.avaya.pim.eventsdk.common.EventSDKConfig.initialize(EventSDKConfig.java:72)
+	at com.avaya.pim.eventsdk.core.POMEventRegistrar.login(POMEventRegistrar.java:75)
+	at br.com.ti365.POMEventQueue.Application.main(Application.java:43)
+
+-----------------------------------------------------
+ 
+[2022-03-14 17:11:24,263] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:11:24,263] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:11:24,265] ERROR [main] LoggerImpl.error:81 - initialize
+-----------------------------------------------------
+java.io.FileNotFoundException: C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\eventsdk.properties (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.avaya.pim.eventsdk.common.EventSDKConfig.initialize(EventSDKConfig.java:72)
+	at com.avaya.pim.eventsdk.core.POMEventRegistrar.login(POMEventRegistrar.java:75)
+	at br.com.ti365.POMEventQueue.Application.main(Application.java:40)
+
+-----------------------------------------------------
+ 
+[2022-03-14 17:11:58,320] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:11:58,320] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:11:58,320] FINE [main] LoggerImpl.fine:56 - EventSDK Configuration has been initialized 
+[2022-03-14 17:11:58,321] FINE [main] LoggerImpl.fine:56 - LoginOption null 
+[2022-03-14 17:11:58,324] ERROR [main] LoggerImpl.error:81 - Unable to create SSL Factory
+-----------------------------------------------------
+java.io.FileNotFoundException: C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\conf\pomTrustStore (O sistema não pode encontrar o caminho especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.avaya.pim.eventsdk.rest.SSLProtocolSocketFactoryClient.initializeSSLContext(SSLProtocolSocketFactoryClient.java:62)
+	at com.avaya.pim.eventsdk.rest.SSLProtocolSocketFactoryClient.getInstance(SSLProtocolSocketFactoryClient.java:52)
+	at com.avaya.pim.eventsdk.core.POMEventRegistrar.setLoginOption(POMEventRegistrar.java:201)
+	at com.avaya.pim.eventsdk.core.POMEventRegistrar.login(POMEventRegistrar.java:78)
+	at br.com.ti365.POMEventQueue.Application.main(Application.java:40)
+
+-----------------------------------------------------
+ 
+[2022-03-14 17:12:42,295] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:12:42,295] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:12:42,295] FINE [main] LoggerImpl.fine:56 - EventSDK Configuration has been initialized 
+[2022-03-14 17:12:42,296] FINE [main] LoggerImpl.fine:56 - LoginOption null 
+[2022-03-14 17:12:44,173] FINE [main] LoggerImpl.fine:56 - Default LoginOption : LoginOption [sslContext=javax.net.ssl.SSLContext@212bf671, pomPortNumber=443] 
+[2022-03-14 17:14:41,522] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:14:41,523] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:14:41,524] FINE [main] LoggerImpl.fine:56 - EventSDK Configuration has been initialized 
+[2022-03-14 17:14:41,524] FINE [main] LoggerImpl.fine:56 - LoginOption null 
+[2022-03-14 17:14:43,423] FINE [main] LoggerImpl.fine:56 - Default LoginOption : LoginOption [sslContext=javax.net.ssl.SSLContext@3c87521, pomPortNumber=443] 
+[2022-03-14 17:14:43,801] FINE [main] LoggerImpl.fine:56 - response received = {"INBOUNDSKILL":"POM.Default.INBOUNDSKILL","POM_AGENT":"POM.Default.AGENT","IMPORTSTATISTICS":"POM.Default.IMPORTSTATISTICS","POM_JOB":"POM.Default.JOB","POM_AGENT_STATISTICS":"POM.Default.AGENTSTATISTICS","POM_ENRICHED_ATTEMPT_RESULT":"POM.Default.ENRICHEDATTEMPTRESULT","POM_JOB_STATISTICS":"POM.Default.JOBSTATISTICS","POM_ATTEMPT":"POM.Default.ATTEMPT"} 
+[2022-03-14 17:14:43,804] FINE [main] LoggerImpl.fine:56 - Login Context has been initialized LoginContext [pimUserId=14, userName=epadmin, orgName=Default, password=Team@365, topicsMap={INBOUNDSKILL=POM.Default.INBOUNDSKILL, POM_AGENT=POM.Default.AGENT, IMPORTSTATISTICS=POM.Default.IMPORTSTATISTICS, POM_JOB=POM.Default.JOB, POM_AGENT_STATISTICS=POM.Default.AGENTSTATISTICS, POM_ENRICHED_ATTEMPT_RESULT=POM.Default.ENRICHEDATTEMPTRESULT, POM_JOB_STATISTICS=POM.Default.JOBSTATISTICS, POM_ATTEMPT=POM.Default.ATTEMPT}] 
+[2022-03-14 17:16:19,934] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:16:19,935] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:16:19,935] FINE [main] LoggerImpl.fine:56 - EventSDK Configuration has been initialized 
+[2022-03-14 17:16:19,935] FINE [main] LoggerImpl.fine:56 - LoginOption null 
+[2022-03-14 17:16:21,668] FINE [main] LoggerImpl.fine:56 - Default LoginOption : LoginOption [sslContext=javax.net.ssl.SSLContext@3c87521, pomPortNumber=443] 
+[2022-03-14 17:16:21,991] FINE [main] LoggerImpl.fine:56 - response received = {"INBOUNDSKILL":"POM.Default.INBOUNDSKILL","POM_AGENT":"POM.Default.AGENT","IMPORTSTATISTICS":"POM.Default.IMPORTSTATISTICS","POM_JOB":"POM.Default.JOB","POM_AGENT_STATISTICS":"POM.Default.AGENTSTATISTICS","POM_ENRICHED_ATTEMPT_RESULT":"POM.Default.ENRICHEDATTEMPTRESULT","POM_JOB_STATISTICS":"POM.Default.JOBSTATISTICS","POM_ATTEMPT":"POM.Default.ATTEMPT"} 
+[2022-03-14 17:16:21,995] FINE [main] LoggerImpl.fine:56 - Login Context has been initialized LoginContext [pimUserId=14, userName=epadmin, orgName=Default, password=Team@365, topicsMap={INBOUNDSKILL=POM.Default.INBOUNDSKILL, POM_AGENT=POM.Default.AGENT, IMPORTSTATISTICS=POM.Default.IMPORTSTATISTICS, POM_JOB=POM.Default.JOB, POM_AGENT_STATISTICS=POM.Default.AGENTSTATISTICS, POM_ENRICHED_ATTEMPT_RESULT=POM.Default.ENRICHEDATTEMPTRESULT, POM_JOB_STATISTICS=POM.Default.JOBSTATISTICS, POM_ATTEMPT=POM.Default.ATTEMPT}] 
+[2022-03-14 17:20:52,615] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:20:52,616] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:20:52,617] FINE [main] LoggerImpl.fine:56 - EventSDK Configuration has been initialized 
+[2022-03-14 17:20:52,617] FINE [main] LoggerImpl.fine:56 - LoginOption null 
+[2022-03-14 17:20:54,377] FINE [main] LoggerImpl.fine:56 - Default LoginOption : LoginOption [sslContext=javax.net.ssl.SSLContext@548a102f, pomPortNumber=443] 
+[2022-03-14 17:20:54,687] FINE [main] LoggerImpl.fine:56 - response received = {"INBOUNDSKILL":"POM.Default.INBOUNDSKILL","POM_AGENT":"POM.Default.AGENT","IMPORTSTATISTICS":"POM.Default.IMPORTSTATISTICS","POM_JOB":"POM.Default.JOB","POM_AGENT_STATISTICS":"POM.Default.AGENTSTATISTICS","POM_ENRICHED_ATTEMPT_RESULT":"POM.Default.ENRICHEDATTEMPTRESULT","POM_JOB_STATISTICS":"POM.Default.JOBSTATISTICS","POM_ATTEMPT":"POM.Default.ATTEMPT"} 
+[2022-03-14 17:20:54,691] FINE [main] LoggerImpl.fine:56 - Login Context has been initialized LoginContext [pimUserId=14, userName=epadmin, orgName=Default, password=Team@365, topicsMap={INBOUNDSKILL=POM.Default.INBOUNDSKILL, POM_AGENT=POM.Default.AGENT, IMPORTSTATISTICS=POM.Default.IMPORTSTATISTICS, POM_JOB=POM.Default.JOB, POM_AGENT_STATISTICS=POM.Default.AGENTSTATISTICS, POM_ENRICHED_ATTEMPT_RESULT=POM.Default.ENRICHEDATTEMPTRESULT, POM_JOB_STATISTICS=POM.Default.JOBSTATISTICS, POM_ATTEMPT=POM.Default.ATTEMPT}] 
+[2022-03-14 17:20:54,694] FINE [main] LoggerImpl.fine:56 - registered with 68f6574e-2285-48d8-b3b9-ba5723088b37 
+[2022-03-14 17:22:28,018] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:22:28,018] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:22:28,019] FINE [main] LoggerImpl.fine:56 - EventSDK Configuration has been initialized 
+[2022-03-14 17:22:28,019] FINE [main] LoggerImpl.fine:56 - LoginOption null 
+[2022-03-14 17:22:29,708] FINE [main] LoggerImpl.fine:56 - Default LoginOption : LoginOption [sslContext=javax.net.ssl.SSLContext@548a102f, pomPortNumber=443] 
+[2022-03-14 17:22:30,003] FINE [main] LoggerImpl.fine:56 - response received = {"INBOUNDSKILL":"POM.Default.INBOUNDSKILL","POM_AGENT":"POM.Default.AGENT","IMPORTSTATISTICS":"POM.Default.IMPORTSTATISTICS","POM_JOB":"POM.Default.JOB","POM_AGENT_STATISTICS":"POM.Default.AGENTSTATISTICS","POM_ENRICHED_ATTEMPT_RESULT":"POM.Default.ENRICHEDATTEMPTRESULT","POM_JOB_STATISTICS":"POM.Default.JOBSTATISTICS","POM_ATTEMPT":"POM.Default.ATTEMPT"} 
+[2022-03-14 17:22:30,007] FINE [main] LoggerImpl.fine:56 - Login Context has been initialized LoginContext [pimUserId=14, userName=epadmin, orgName=Default, password=Team@365, topicsMap={INBOUNDSKILL=POM.Default.INBOUNDSKILL, POM_AGENT=POM.Default.AGENT, IMPORTSTATISTICS=POM.Default.IMPORTSTATISTICS, POM_JOB=POM.Default.JOB, POM_AGENT_STATISTICS=POM.Default.AGENTSTATISTICS, POM_ENRICHED_ATTEMPT_RESULT=POM.Default.ENRICHEDATTEMPTRESULT, POM_JOB_STATISTICS=POM.Default.JOBSTATISTICS, POM_ATTEMPT=POM.Default.ATTEMPT}] 
+[2022-03-14 17:22:30,009] FINE [main] LoggerImpl.fine:56 - registered with aff69dcc-4ab2-4b56-9aed-be195a452a11 
+[2022-03-14 17:22:30,093] FINE [main] LoggerImpl.fine:56 - eventType 7 registered listener 0 
+[2022-03-14 17:22:30,094] FINE [main] LoggerImpl.fine:56 - No need to start HeartBeat event thread as there is no listener 
+[2022-03-14 17:22:30,094] FINE [main] LoggerImpl.fine:56 - eventType 0 registered listener 0 
+[2022-03-14 17:22:30,094] FINE [main] LoggerImpl.fine:56 - No need to start job event thread as there is no listener 
+[2022-03-14 17:22:30,095] FINE [main] LoggerImpl.fine:56 - eventType 1 registered listener 0 
+[2022-03-14 17:22:30,095] FINE [main] LoggerImpl.fine:56 - No need to start agent event thread as there is no listener 
+[2022-03-14 17:22:30,095] FINE [main] LoggerImpl.fine:56 - eventType 3 registered listener 0 
+[2022-03-14 17:22:30,095] FINE [main] LoggerImpl.fine:56 - No need to start job statistics event thread as there is no listener 
+[2022-03-14 17:22:30,095] FINE [main] LoggerImpl.fine:56 - eventType 4 registered listener 0 
+[2022-03-14 17:22:30,095] FINE [main] LoggerImpl.fine:56 - No need to start agent statistics event thread as there is no listener 
+[2022-03-14 17:22:30,096] FINE [main] LoggerImpl.fine:56 - eventType 5 registered listener 0 
+[2022-03-14 17:22:30,096] FINE [main] LoggerImpl.fine:56 - No need to start attempt event thread as there is no listener 
+[2022-03-14 17:22:30,096] FINE [main] LoggerImpl.fine:56 - eventType 6 registered listener 1 
+[2022-03-14 17:22:30,267] FINE [main] LoggerImpl.fine:56 - Org Pattern is :ENRICHEDATTEMPTRESULT 
+[2022-03-14 17:22:30,267] FINE [main] LoggerImpl.fine:56 - Consumer started with {security.protocol=SSL, value.deserializer=org.apache.kafka.common.serialization.StringDeserializer, group.id=3, bootstrap.servers=172.31.254.21:9093, ssl.keystore.password=changeit, ssl.enabled.protocols=TLSv1.2, ssl.truststore.location=C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\conf/pomTrustStore, ssl.truststore.password=changeit, ssl.keystore.location=C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\conf/pomKeyStore, client.id=EVENT_SDK_CLIENT, metadata.max.age.ms=30000, key.deserializer=org.apache.kafka.common.serialization.StringDeserializer} on topic .*(ENRICHEDATTEMPTRESULT)$ 
+[2022-03-14 17:22:30,280] FINE [main] LoggerImpl.fine:56 - About to start EnrichedAttemptResultConsumerThread 
+[2022-03-14 17:22:30,281] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - EnrichedAttemptResultConsumerThread started 
+[2022-03-14 17:22:31,248] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - Parititiona assigned: POM.Default.ENRICHEDATTEMPTRESULT-0 
+[2022-03-14 17:22:31,248] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - Receive messages after client start 
+[2022-03-14 17:26:15,331] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:26:15,332] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:26:15,333] FINE [main] LoggerImpl.fine:56 - EventSDK Configuration has been initialized 
+[2022-03-14 17:26:15,333] FINE [main] LoggerImpl.fine:56 - LoginOption null 
+[2022-03-14 17:26:17,148] FINE [main] LoggerImpl.fine:56 - Default LoginOption : LoginOption [sslContext=javax.net.ssl.SSLContext@14a2f921, pomPortNumber=443] 
+[2022-03-14 17:26:17,484] FINE [main] LoggerImpl.fine:56 - response received = {"INBOUNDSKILL":"POM.Default.INBOUNDSKILL","POM_AGENT":"POM.Default.AGENT","IMPORTSTATISTICS":"POM.Default.IMPORTSTATISTICS","POM_JOB":"POM.Default.JOB","POM_AGENT_STATISTICS":"POM.Default.AGENTSTATISTICS","POM_ENRICHED_ATTEMPT_RESULT":"POM.Default.ENRICHEDATTEMPTRESULT","POM_JOB_STATISTICS":"POM.Default.JOBSTATISTICS","POM_ATTEMPT":"POM.Default.ATTEMPT"} 
+[2022-03-14 17:26:17,488] FINE [main] LoggerImpl.fine:56 - Login Context has been initialized LoginContext [pimUserId=14, userName=epadmin, orgName=Default, password=Team@365, topicsMap={INBOUNDSKILL=POM.Default.INBOUNDSKILL, POM_AGENT=POM.Default.AGENT, IMPORTSTATISTICS=POM.Default.IMPORTSTATISTICS, POM_JOB=POM.Default.JOB, POM_AGENT_STATISTICS=POM.Default.AGENTSTATISTICS, POM_ENRICHED_ATTEMPT_RESULT=POM.Default.ENRICHEDATTEMPTRESULT, POM_JOB_STATISTICS=POM.Default.JOBSTATISTICS, POM_ATTEMPT=POM.Default.ATTEMPT}] 
+[2022-03-14 17:26:17,659] FINE [main] LoggerImpl.fine:56 - registered with e3cd3beb-d559-4232-9365-1c9d0d3fbdb5 
+[2022-03-14 17:26:17,721] FINE [main] LoggerImpl.fine:56 - eventType 7 registered listener 0 
+[2022-03-14 17:26:17,721] FINE [main] LoggerImpl.fine:56 - No need to start HeartBeat event thread as there is no listener 
+[2022-03-14 17:26:17,721] FINE [main] LoggerImpl.fine:56 - eventType 0 registered listener 0 
+[2022-03-14 17:26:17,721] FINE [main] LoggerImpl.fine:56 - No need to start job event thread as there is no listener 
+[2022-03-14 17:26:17,721] FINE [main] LoggerImpl.fine:56 - eventType 1 registered listener 0 
+[2022-03-14 17:26:17,721] FINE [main] LoggerImpl.fine:56 - No need to start agent event thread as there is no listener 
+[2022-03-14 17:26:17,721] FINE [main] LoggerImpl.fine:56 - eventType 3 registered listener 0 
+[2022-03-14 17:26:17,721] FINE [main] LoggerImpl.fine:56 - No need to start job statistics event thread as there is no listener 
+[2022-03-14 17:26:17,721] FINE [main] LoggerImpl.fine:56 - eventType 4 registered listener 0 
+[2022-03-14 17:26:17,721] FINE [main] LoggerImpl.fine:56 - No need to start agent statistics event thread as there is no listener 
+[2022-03-14 17:26:17,722] FINE [main] LoggerImpl.fine:56 - eventType 5 registered listener 0 
+[2022-03-14 17:26:17,722] FINE [main] LoggerImpl.fine:56 - No need to start attempt event thread as there is no listener 
+[2022-03-14 17:26:17,722] FINE [main] LoggerImpl.fine:56 - eventType 6 registered listener 1 
+[2022-03-14 17:26:17,842] FINE [main] LoggerImpl.fine:56 - Org Pattern is :ENRICHEDATTEMPTRESULT 
+[2022-03-14 17:26:17,842] FINE [main] LoggerImpl.fine:56 - Consumer started with {security.protocol=SSL, value.deserializer=org.apache.kafka.common.serialization.StringDeserializer, group.id=3, bootstrap.servers=172.31.254.21:9093, ssl.keystore.password=changeit, ssl.enabled.protocols=TLSv1.2, ssl.truststore.location=C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\conf/pomTrustStore, ssl.truststore.password=changeit, ssl.keystore.location=C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\conf/pomKeyStore, client.id=EVENT_SDK_CLIENT, metadata.max.age.ms=30000, key.deserializer=org.apache.kafka.common.serialization.StringDeserializer} on topic .*(ENRICHEDATTEMPTRESULT)$ 
+[2022-03-14 17:26:17,851] FINE [main] LoggerImpl.fine:56 - About to start EnrichedAttemptResultConsumerThread 
+[2022-03-14 17:26:17,852] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - EnrichedAttemptResultConsumerThread started 
+[2022-03-14 17:26:18,395] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - Parititiona assigned: POM.Default.ENRICHEDATTEMPTRESULT-0 
+[2022-03-14 17:26:18,395] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - Receive messages after client start 
+[2022-03-14 17:31:24,765] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:31:24,767] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:31:24,768] FINE [main] LoggerImpl.fine:56 - EventSDK Configuration has been initialized 
+[2022-03-14 17:31:24,769] FINE [main] LoggerImpl.fine:56 - LoginOption null 
+[2022-03-14 17:31:27,388] FINE [main] LoggerImpl.fine:56 - Default LoginOption : LoginOption [sslContext=javax.net.ssl.SSLContext@548a102f, pomPortNumber=443] 
+[2022-03-14 17:31:27,704] FINE [main] LoggerImpl.fine:56 - response received = {"INBOUNDSKILL":"POM.Default.INBOUNDSKILL","POM_AGENT":"POM.Default.AGENT","IMPORTSTATISTICS":"POM.Default.IMPORTSTATISTICS","POM_JOB":"POM.Default.JOB","POM_AGENT_STATISTICS":"POM.Default.AGENTSTATISTICS","POM_ENRICHED_ATTEMPT_RESULT":"POM.Default.ENRICHEDATTEMPTRESULT","POM_JOB_STATISTICS":"POM.Default.JOBSTATISTICS","POM_ATTEMPT":"POM.Default.ATTEMPT"} 
+[2022-03-14 17:31:27,708] FINE [main] LoggerImpl.fine:56 - Login Context has been initialized LoginContext [pimUserId=14, userName=epadmin, orgName=Default, password=Team@365, topicsMap={INBOUNDSKILL=POM.Default.INBOUNDSKILL, POM_AGENT=POM.Default.AGENT, IMPORTSTATISTICS=POM.Default.IMPORTSTATISTICS, POM_JOB=POM.Default.JOB, POM_AGENT_STATISTICS=POM.Default.AGENTSTATISTICS, POM_ENRICHED_ATTEMPT_RESULT=POM.Default.ENRICHEDATTEMPTRESULT, POM_JOB_STATISTICS=POM.Default.JOBSTATISTICS, POM_ATTEMPT=POM.Default.ATTEMPT}] 
+[2022-03-14 17:31:27,825] FINE [main] LoggerImpl.fine:56 - registered with c1ea452c-0e9e-4c73-baee-fbe3c305b925 
+[2022-03-14 17:31:27,889] FINE [main] LoggerImpl.fine:56 - eventType 7 registered listener 0 
+[2022-03-14 17:31:27,889] FINE [main] LoggerImpl.fine:56 - No need to start HeartBeat event thread as there is no listener 
+[2022-03-14 17:31:27,889] FINE [main] LoggerImpl.fine:56 - eventType 0 registered listener 0 
+[2022-03-14 17:31:27,889] FINE [main] LoggerImpl.fine:56 - No need to start job event thread as there is no listener 
+[2022-03-14 17:31:27,889] FINE [main] LoggerImpl.fine:56 - eventType 1 registered listener 0 
+[2022-03-14 17:31:27,889] FINE [main] LoggerImpl.fine:56 - No need to start agent event thread as there is no listener 
+[2022-03-14 17:31:27,889] FINE [main] LoggerImpl.fine:56 - eventType 3 registered listener 0 
+[2022-03-14 17:31:27,889] FINE [main] LoggerImpl.fine:56 - No need to start job statistics event thread as there is no listener 
+[2022-03-14 17:31:27,889] FINE [main] LoggerImpl.fine:56 - eventType 4 registered listener 0 
+[2022-03-14 17:31:27,890] FINE [main] LoggerImpl.fine:56 - No need to start agent statistics event thread as there is no listener 
+[2022-03-14 17:31:27,890] FINE [main] LoggerImpl.fine:56 - eventType 5 registered listener 0 
+[2022-03-14 17:31:27,890] FINE [main] LoggerImpl.fine:56 - No need to start attempt event thread as there is no listener 
+[2022-03-14 17:31:27,890] FINE [main] LoggerImpl.fine:56 - eventType 6 registered listener 1 
+[2022-03-14 17:31:28,007] FINE [main] LoggerImpl.fine:56 - Org Pattern is :ENRICHEDATTEMPTRESULT 
+[2022-03-14 17:31:28,007] FINE [main] LoggerImpl.fine:56 - Consumer started with {security.protocol=SSL, value.deserializer=org.apache.kafka.common.serialization.StringDeserializer, group.id=3, bootstrap.servers=172.31.254.21:9093, ssl.keystore.password=changeit, ssl.enabled.protocols=TLSv1.2, ssl.truststore.location=C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\conf/pomTrustStore, ssl.truststore.password=changeit, ssl.keystore.location=C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\conf/pomKeyStore, client.id=EVENT_SDK_CLIENT, metadata.max.age.ms=30000, key.deserializer=org.apache.kafka.common.serialization.StringDeserializer} on topic .*(ENRICHEDATTEMPTRESULT)$ 
+[2022-03-14 17:31:28,022] FINE [main] LoggerImpl.fine:56 - About to start EnrichedAttemptResultConsumerThread 
+[2022-03-14 17:31:28,022] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - EnrichedAttemptResultConsumerThread started 
+[2022-03-14 17:31:29,621] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - Parititiona assigned: POM.Default.ENRICHEDATTEMPTRESULT-0 
+[2022-03-14 17:31:29,622] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - Receive messages after client start 
+[2022-03-14 17:34:17,060] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:34:17,060] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:34:17,060] FINE [main] LoggerImpl.fine:56 - EventSDK Configuration has been initialized 
+[2022-03-14 17:34:17,061] FINE [main] LoggerImpl.fine:56 - LoginOption null 
+[2022-03-14 17:34:18,652] FINE [main] LoggerImpl.fine:56 - Default LoginOption : LoginOption [sslContext=javax.net.ssl.SSLContext@548a102f, pomPortNumber=443] 
+[2022-03-14 17:34:18,948] FINE [main] LoggerImpl.fine:56 - response received = {"INBOUNDSKILL":"POM.Default.INBOUNDSKILL","POM_AGENT":"POM.Default.AGENT","IMPORTSTATISTICS":"POM.Default.IMPORTSTATISTICS","POM_JOB":"POM.Default.JOB","POM_AGENT_STATISTICS":"POM.Default.AGENTSTATISTICS","POM_ENRICHED_ATTEMPT_RESULT":"POM.Default.ENRICHEDATTEMPTRESULT","POM_JOB_STATISTICS":"POM.Default.JOBSTATISTICS","POM_ATTEMPT":"POM.Default.ATTEMPT"} 
+[2022-03-14 17:34:18,952] FINE [main] LoggerImpl.fine:56 - Login Context has been initialized LoginContext [pimUserId=14, userName=epadmin, orgName=Default, password=Team@365, topicsMap={INBOUNDSKILL=POM.Default.INBOUNDSKILL, POM_AGENT=POM.Default.AGENT, IMPORTSTATISTICS=POM.Default.IMPORTSTATISTICS, POM_JOB=POM.Default.JOB, POM_AGENT_STATISTICS=POM.Default.AGENTSTATISTICS, POM_ENRICHED_ATTEMPT_RESULT=POM.Default.ENRICHEDATTEMPTRESULT, POM_JOB_STATISTICS=POM.Default.JOBSTATISTICS, POM_ATTEMPT=POM.Default.ATTEMPT}] 
+[2022-03-14 17:34:19,055] FINE [main] LoggerImpl.fine:56 - registered with 5805d0a2-7844-40c1-8278-f5fd0787528b 
+[2022-03-14 17:34:19,124] FINE [main] LoggerImpl.fine:56 - eventType 7 registered listener 0 
+[2022-03-14 17:34:19,124] FINE [main] LoggerImpl.fine:56 - No need to start HeartBeat event thread as there is no listener 
+[2022-03-14 17:34:19,124] FINE [main] LoggerImpl.fine:56 - eventType 0 registered listener 0 
+[2022-03-14 17:34:19,124] FINE [main] LoggerImpl.fine:56 - No need to start job event thread as there is no listener 
+[2022-03-14 17:34:19,124] FINE [main] LoggerImpl.fine:56 - eventType 1 registered listener 0 
+[2022-03-14 17:34:19,124] FINE [main] LoggerImpl.fine:56 - No need to start agent event thread as there is no listener 
+[2022-03-14 17:34:19,124] FINE [main] LoggerImpl.fine:56 - eventType 3 registered listener 0 
+[2022-03-14 17:34:19,124] FINE [main] LoggerImpl.fine:56 - No need to start job statistics event thread as there is no listener 
+[2022-03-14 17:34:19,124] FINE [main] LoggerImpl.fine:56 - eventType 4 registered listener 0 
+[2022-03-14 17:34:19,124] FINE [main] LoggerImpl.fine:56 - No need to start agent statistics event thread as there is no listener 
+[2022-03-14 17:34:19,124] FINE [main] LoggerImpl.fine:56 - eventType 5 registered listener 0 
+[2022-03-14 17:34:19,124] FINE [main] LoggerImpl.fine:56 - No need to start attempt event thread as there is no listener 
+[2022-03-14 17:34:19,124] FINE [main] LoggerImpl.fine:56 - eventType 6 registered listener 1 
+[2022-03-14 17:34:19,210] FINE [main] LoggerImpl.fine:56 - Org Pattern is :ENRICHEDATTEMPTRESULT 
+[2022-03-14 17:34:19,210] FINE [main] LoggerImpl.fine:56 - Consumer started with {security.protocol=SSL, value.deserializer=org.apache.kafka.common.serialization.StringDeserializer, group.id=3, bootstrap.servers=172.31.254.21:9093, ssl.keystore.password=changeit, ssl.enabled.protocols=TLSv1.2, ssl.truststore.location=C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\conf/pomTrustStore, ssl.truststore.password=changeit, ssl.keystore.location=C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\conf/pomKeyStore, client.id=EVENT_SDK_CLIENT, metadata.max.age.ms=30000, key.deserializer=org.apache.kafka.common.serialization.StringDeserializer} on topic .*(ENRICHEDATTEMPTRESULT)$ 
+[2022-03-14 17:34:19,218] FINE [main] LoggerImpl.fine:56 - About to start EnrichedAttemptResultConsumerThread 
+[2022-03-14 17:34:19,218] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - EnrichedAttemptResultConsumerThread started 
+[2022-03-14 17:34:19,826] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - Parititiona assigned: POM.Default.ENRICHEDATTEMPTRESULT-0 
+[2022-03-14 17:34:19,826] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - Receive messages after client start 
+[2022-03-14 17:36:09,118] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:36:09,118] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:36:09,119] FINE [main] LoggerImpl.fine:56 - EventSDK Configuration has been initialized 
+[2022-03-14 17:36:09,119] FINE [main] LoggerImpl.fine:56 - LoginOption null 
+[2022-03-14 17:36:10,817] FINE [main] LoggerImpl.fine:56 - Default LoginOption : LoginOption [sslContext=javax.net.ssl.SSLContext@548a102f, pomPortNumber=443] 
+[2022-03-14 17:36:11,149] FINE [main] LoggerImpl.fine:56 - response received = {"INBOUNDSKILL":"POM.Default.INBOUNDSKILL","POM_AGENT":"POM.Default.AGENT","IMPORTSTATISTICS":"POM.Default.IMPORTSTATISTICS","POM_JOB":"POM.Default.JOB","POM_AGENT_STATISTICS":"POM.Default.AGENTSTATISTICS","POM_ENRICHED_ATTEMPT_RESULT":"POM.Default.ENRICHEDATTEMPTRESULT","POM_JOB_STATISTICS":"POM.Default.JOBSTATISTICS","POM_ATTEMPT":"POM.Default.ATTEMPT"} 
+[2022-03-14 17:36:11,153] FINE [main] LoggerImpl.fine:56 - Login Context has been initialized LoginContext [pimUserId=14, userName=epadmin, orgName=Default, password=Team@365, topicsMap={INBOUNDSKILL=POM.Default.INBOUNDSKILL, POM_AGENT=POM.Default.AGENT, IMPORTSTATISTICS=POM.Default.IMPORTSTATISTICS, POM_JOB=POM.Default.JOB, POM_AGENT_STATISTICS=POM.Default.AGENTSTATISTICS, POM_ENRICHED_ATTEMPT_RESULT=POM.Default.ENRICHEDATTEMPTRESULT, POM_JOB_STATISTICS=POM.Default.JOBSTATISTICS, POM_ATTEMPT=POM.Default.ATTEMPT}] 
+[2022-03-14 17:36:11,279] FINE [main] LoggerImpl.fine:56 - registered with e920065a-91c4-4530-9023-6c5464e8279e 
+[2022-03-14 17:36:11,415] FINE [main] LoggerImpl.fine:56 - eventType 7 registered listener 0 
+[2022-03-14 17:36:11,415] FINE [main] LoggerImpl.fine:56 - No need to start HeartBeat event thread as there is no listener 
+[2022-03-14 17:36:11,415] FINE [main] LoggerImpl.fine:56 - eventType 0 registered listener 0 
+[2022-03-14 17:36:11,415] FINE [main] LoggerImpl.fine:56 - No need to start job event thread as there is no listener 
+[2022-03-14 17:36:11,415] FINE [main] LoggerImpl.fine:56 - eventType 1 registered listener 0 
+[2022-03-14 17:36:11,415] FINE [main] LoggerImpl.fine:56 - No need to start agent event thread as there is no listener 
+[2022-03-14 17:36:11,416] FINE [main] LoggerImpl.fine:56 - eventType 3 registered listener 0 
+[2022-03-14 17:36:11,416] FINE [main] LoggerImpl.fine:56 - No need to start job statistics event thread as there is no listener 
+[2022-03-14 17:36:11,416] FINE [main] LoggerImpl.fine:56 - eventType 4 registered listener 0 
+[2022-03-14 17:36:11,416] FINE [main] LoggerImpl.fine:56 - No need to start agent statistics event thread as there is no listener 
+[2022-03-14 17:36:11,416] FINE [main] LoggerImpl.fine:56 - eventType 5 registered listener 0 
+[2022-03-14 17:36:11,416] FINE [main] LoggerImpl.fine:56 - No need to start attempt event thread as there is no listener 
+[2022-03-14 17:36:11,416] FINE [main] LoggerImpl.fine:56 - eventType 6 registered listener 1 
+[2022-03-14 17:36:11,501] FINE [main] LoggerImpl.fine:56 - Org Pattern is :ENRICHEDATTEMPTRESULT 
+[2022-03-14 17:36:11,501] FINE [main] LoggerImpl.fine:56 - Consumer started with {security.protocol=SSL, value.deserializer=org.apache.kafka.common.serialization.StringDeserializer, group.id=3, bootstrap.servers=172.31.254.21:9093, ssl.keystore.password=changeit, ssl.enabled.protocols=TLSv1.2, ssl.truststore.location=C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\conf/pomTrustStore, ssl.truststore.password=changeit, ssl.keystore.location=C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\conf/pomKeyStore, client.id=EVENT_SDK_CLIENT, metadata.max.age.ms=30000, key.deserializer=org.apache.kafka.common.serialization.StringDeserializer} on topic .*(ENRICHEDATTEMPTRESULT)$ 
+[2022-03-14 17:36:11,508] FINE [main] LoggerImpl.fine:56 - About to start EnrichedAttemptResultConsumerThread 
+[2022-03-14 17:36:11,509] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - EnrichedAttemptResultConsumerThread started 
+[2022-03-14 17:36:12,068] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - Parititiona assigned: POM.Default.ENRICHEDATTEMPTRESULT-0 
+[2022-03-14 17:36:12,069] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - Receive messages after client start 
+[2022-03-14 17:39:40,763] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-14 17:39:40,764] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-14 17:39:40,765] ERROR [main] LoggerImpl.error:81 - initialize
+-----------------------------------------------------
+java.io.FileNotFoundException: C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\eventsdk.properties (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.avaya.pim.eventsdk.common.EventSDKConfig.initialize(EventSDKConfig.java:72)
+	at com.avaya.pim.eventsdk.core.POMEventRegistrar.login(POMEventRegistrar.java:75)
+	at br.com.ti365.POMEventQueue.Application.main(Application.java:30)
+
+-----------------------------------------------------
+ 
