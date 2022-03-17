@@ -254,3 +254,184 @@ java.io.FileNotFoundException: C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POME
 
 -----------------------------------------------------
  
+[2022-03-17 15:03:16,975] FINE [main] LoggerImpl.fine:56 - ApplicationHome : null 
+[2022-03-17 15:03:16,976] FINE [main] LoggerImpl.fine:56 - trying to find properties file in current directory as POM_EVENT_SDK_DIR is not set 
+[2022-03-17 15:03:16,977] FINE [main] LoggerImpl.fine:56 - EventSDK Configuration has been initialized 
+[2022-03-17 15:03:16,977] FINE [main] LoggerImpl.fine:56 - LoginOption null 
+[2022-03-17 15:03:18,577] FINE [main] LoggerImpl.fine:56 - Default LoginOption : LoginOption [sslContext=javax.net.ssl.SSLContext@548a102f, pomPortNumber=443] 
+[2022-03-17 15:03:18,927] FINE [main] LoggerImpl.fine:56 - response received = {"INBOUNDSKILL":"POM.Default.INBOUNDSKILL","POM_AGENT":"POM.Default.AGENT","IMPORTSTATISTICS":"POM.Default.IMPORTSTATISTICS","POM_JOB":"POM.Default.JOB","POM_AGENT_STATISTICS":"POM.Default.AGENTSTATISTICS","POM_ENRICHED_ATTEMPT_RESULT":"POM.Default.ENRICHEDATTEMPTRESULT","POM_JOB_STATISTICS":"POM.Default.JOBSTATISTICS","POM_ATTEMPT":"POM.Default.ATTEMPT"} 
+[2022-03-17 15:03:18,932] FINE [main] LoggerImpl.fine:56 - Login Context has been initialized LoginContext [pimUserId=14, userName=epadmin, orgName=Default, password=Team@365, topicsMap={INBOUNDSKILL=POM.Default.INBOUNDSKILL, POM_AGENT=POM.Default.AGENT, IMPORTSTATISTICS=POM.Default.IMPORTSTATISTICS, POM_JOB=POM.Default.JOB, POM_AGENT_STATISTICS=POM.Default.AGENTSTATISTICS, POM_ENRICHED_ATTEMPT_RESULT=POM.Default.ENRICHEDATTEMPTRESULT, POM_JOB_STATISTICS=POM.Default.JOBSTATISTICS, POM_ATTEMPT=POM.Default.ATTEMPT}] 
+[2022-03-17 15:03:23,112] FINE [main] LoggerImpl.fine:56 - registered with dd8df4ec-6247-45f7-b928-26b72f933aeb 
+[2022-03-17 15:03:23,211] FINE [main] LoggerImpl.fine:56 - eventType 7 registered listener 0 
+[2022-03-17 15:03:23,211] FINE [main] LoggerImpl.fine:56 - No need to start HeartBeat event thread as there is no listener 
+[2022-03-17 15:03:23,212] FINE [main] LoggerImpl.fine:56 - eventType 0 registered listener 0 
+[2022-03-17 15:03:23,212] FINE [main] LoggerImpl.fine:56 - No need to start job event thread as there is no listener 
+[2022-03-17 15:03:23,212] FINE [main] LoggerImpl.fine:56 - eventType 1 registered listener 0 
+[2022-03-17 15:03:23,212] FINE [main] LoggerImpl.fine:56 - No need to start agent event thread as there is no listener 
+[2022-03-17 15:03:23,212] FINE [main] LoggerImpl.fine:56 - eventType 3 registered listener 0 
+[2022-03-17 15:03:23,212] FINE [main] LoggerImpl.fine:56 - No need to start job statistics event thread as there is no listener 
+[2022-03-17 15:03:23,213] FINE [main] LoggerImpl.fine:56 - eventType 4 registered listener 0 
+[2022-03-17 15:03:23,213] FINE [main] LoggerImpl.fine:56 - No need to start agent statistics event thread as there is no listener 
+[2022-03-17 15:03:23,213] FINE [main] LoggerImpl.fine:56 - eventType 5 registered listener 0 
+[2022-03-17 15:03:23,213] FINE [main] LoggerImpl.fine:56 - No need to start attempt event thread as there is no listener 
+[2022-03-17 15:03:23,213] FINE [main] LoggerImpl.fine:56 - eventType 6 registered listener 1 
+[2022-03-17 15:03:23,304] FINE [main] LoggerImpl.fine:56 - Org Pattern is :ENRICHEDATTEMPTRESULT 
+[2022-03-17 15:03:23,304] FINE [main] LoggerImpl.fine:56 - Consumer started with {security.protocol=SSL, value.deserializer=org.apache.kafka.common.serialization.StringDeserializer, group.id=3, bootstrap.servers=172.31.254.21:9093, ssl.keystore.password=changeit, ssl.enabled.protocols=TLSv1.2, ssl.truststore.location=C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\conf/pomTrustStore, ssl.truststore.password=changeit, ssl.keystore.location=C:\Users\365NOTE13\Desktop\Workspace-Eclipse\POMEventQueue\conf/pomKeyStore, client.id=EVENT_SDK_CLIENT, metadata.max.age.ms=30000, key.deserializer=org.apache.kafka.common.serialization.StringDeserializer} on topic .*(ENRICHEDATTEMPTRESULT)$ 
+[2022-03-17 15:03:23,315] FINE [main] LoggerImpl.fine:56 - About to start EnrichedAttemptResultConsumerThread 
+[2022-03-17 15:03:23,315] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - EnrichedAttemptResultConsumerThread started 
+[2022-03-17 15:03:24,716] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - Parititiona assigned: POM.Default.ENRICHEDATTEMPTRESULT-0 
+[2022-03-17 15:03:24,717] FINE [EnrichedAttemptConsumerThread] LoggerImpl.fine:56 - Receive messages after client start 
+[2022-03-17 15:03:26,546] ERROR [EnrichedAttemptConsumerThread] LoggerImpl.error:81 - Error in EnrichedAttemptResultEventConsumerCallback 
+-----------------------------------------------------
+java.lang.NullPointerException
+	at br.com.ti365.POMEventQueue.service.impl.RabbitConnectionServiceImpl.publish(RabbitConnectionServiceImpl.java:49)
+	at br.com.ti365.POMEventQueue.service.impl.PomEventServiceImpl.onEvent(PomEventServiceImpl.java:22)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.setOnEventForEventListener(EnrichedAttemptResultConsumerThread.java:115)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.transformEnrichedAttemptObject(EnrichedAttemptResultConsumerThread.java:94)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.run(EnrichedAttemptResultConsumerThread.java:46)
+
+-----------------------------------------------------
+ 
+[2022-03-17 15:03:26,547] ERROR [EnrichedAttemptConsumerThread] LoggerImpl.error:81 - Error in EnrichedAttemptResultEventConsumerCallback 
+-----------------------------------------------------
+java.lang.NullPointerException
+	at br.com.ti365.POMEventQueue.service.impl.RabbitConnectionServiceImpl.publish(RabbitConnectionServiceImpl.java:49)
+	at br.com.ti365.POMEventQueue.service.impl.PomEventServiceImpl.onEvent(PomEventServiceImpl.java:22)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.setOnEventForEventListener(EnrichedAttemptResultConsumerThread.java:115)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.transformEnrichedAttemptObject(EnrichedAttemptResultConsumerThread.java:94)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.run(EnrichedAttemptResultConsumerThread.java:46)
+
+-----------------------------------------------------
+ 
+[2022-03-17 15:03:26,549] ERROR [EnrichedAttemptConsumerThread] LoggerImpl.error:81 - Error in EnrichedAttemptResultEventConsumerCallback 
+-----------------------------------------------------
+java.lang.NullPointerException
+	at br.com.ti365.POMEventQueue.service.impl.RabbitConnectionServiceImpl.publish(RabbitConnectionServiceImpl.java:49)
+	at br.com.ti365.POMEventQueue.service.impl.PomEventServiceImpl.onEvent(PomEventServiceImpl.java:22)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.setOnEventForEventListener(EnrichedAttemptResultConsumerThread.java:115)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.transformEnrichedAttemptObject(EnrichedAttemptResultConsumerThread.java:94)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.run(EnrichedAttemptResultConsumerThread.java:46)
+
+-----------------------------------------------------
+ 
+[2022-03-17 15:03:26,550] ERROR [EnrichedAttemptConsumerThread] LoggerImpl.error:81 - Error in EnrichedAttemptResultEventConsumerCallback 
+-----------------------------------------------------
+java.lang.NullPointerException
+	at br.com.ti365.POMEventQueue.service.impl.RabbitConnectionServiceImpl.publish(RabbitConnectionServiceImpl.java:49)
+	at br.com.ti365.POMEventQueue.service.impl.PomEventServiceImpl.onEvent(PomEventServiceImpl.java:22)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.setOnEventForEventListener(EnrichedAttemptResultConsumerThread.java:115)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.transformEnrichedAttemptObject(EnrichedAttemptResultConsumerThread.java:94)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.run(EnrichedAttemptResultConsumerThread.java:46)
+
+-----------------------------------------------------
+ 
+[2022-03-17 15:03:28,512] ERROR [EnrichedAttemptConsumerThread] LoggerImpl.error:81 - Error in EnrichedAttemptResultEventConsumerCallback 
+-----------------------------------------------------
+java.lang.NullPointerException
+	at br.com.ti365.POMEventQueue.service.impl.RabbitConnectionServiceImpl.publish(RabbitConnectionServiceImpl.java:49)
+	at br.com.ti365.POMEventQueue.service.impl.PomEventServiceImpl.onEvent(PomEventServiceImpl.java:22)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.setOnEventForEventListener(EnrichedAttemptResultConsumerThread.java:115)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.transformEnrichedAttemptObject(EnrichedAttemptResultConsumerThread.java:94)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.run(EnrichedAttemptResultConsumerThread.java:46)
+
+-----------------------------------------------------
+ 
+[2022-03-17 15:03:28,513] ERROR [EnrichedAttemptConsumerThread] LoggerImpl.error:81 - Error in EnrichedAttemptResultEventConsumerCallback 
+-----------------------------------------------------
+java.lang.NullPointerException
+	at br.com.ti365.POMEventQueue.service.impl.RabbitConnectionServiceImpl.publish(RabbitConnectionServiceImpl.java:49)
+	at br.com.ti365.POMEventQueue.service.impl.PomEventServiceImpl.onEvent(PomEventServiceImpl.java:22)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.setOnEventForEventListener(EnrichedAttemptResultConsumerThread.java:115)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.transformEnrichedAttemptObject(EnrichedAttemptResultConsumerThread.java:94)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.run(EnrichedAttemptResultConsumerThread.java:46)
+
+-----------------------------------------------------
+ 
+[2022-03-17 15:03:28,513] ERROR [EnrichedAttemptConsumerThread] LoggerImpl.error:81 - Error in EnrichedAttemptResultEventConsumerCallback 
+-----------------------------------------------------
+java.lang.NullPointerException
+	at br.com.ti365.POMEventQueue.service.impl.RabbitConnectionServiceImpl.publish(RabbitConnectionServiceImpl.java:49)
+	at br.com.ti365.POMEventQueue.service.impl.PomEventServiceImpl.onEvent(PomEventServiceImpl.java:22)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.setOnEventForEventListener(EnrichedAttemptResultConsumerThread.java:115)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.transformEnrichedAttemptObject(EnrichedAttemptResultConsumerThread.java:94)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.run(EnrichedAttemptResultConsumerThread.java:46)
+
+-----------------------------------------------------
+ 
+[2022-03-17 15:03:28,515] ERROR [EnrichedAttemptConsumerThread] LoggerImpl.error:81 - Error in EnrichedAttemptResultEventConsumerCallback 
+-----------------------------------------------------
+java.lang.NullPointerException
+	at br.com.ti365.POMEventQueue.service.impl.RabbitConnectionServiceImpl.publish(RabbitConnectionServiceImpl.java:49)
+	at br.com.ti365.POMEventQueue.service.impl.PomEventServiceImpl.onEvent(PomEventServiceImpl.java:22)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.setOnEventForEventListener(EnrichedAttemptResultConsumerThread.java:115)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.transformEnrichedAttemptObject(EnrichedAttemptResultConsumerThread.java:94)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.run(EnrichedAttemptResultConsumerThread.java:46)
+
+-----------------------------------------------------
+ 
+[2022-03-17 15:03:28,516] ERROR [EnrichedAttemptConsumerThread] LoggerImpl.error:81 - Error in EnrichedAttemptResultEventConsumerCallback 
+-----------------------------------------------------
+java.lang.NullPointerException
+	at br.com.ti365.POMEventQueue.service.impl.RabbitConnectionServiceImpl.publish(RabbitConnectionServiceImpl.java:49)
+	at br.com.ti365.POMEventQueue.service.impl.PomEventServiceImpl.onEvent(PomEventServiceImpl.java:22)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.setOnEventForEventListener(EnrichedAttemptResultConsumerThread.java:115)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.transformEnrichedAttemptObject(EnrichedAttemptResultConsumerThread.java:94)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.run(EnrichedAttemptResultConsumerThread.java:46)
+
+-----------------------------------------------------
+ 
+[2022-03-17 15:03:28,516] ERROR [EnrichedAttemptConsumerThread] LoggerImpl.error:81 - Error in EnrichedAttemptResultEventConsumerCallback 
+-----------------------------------------------------
+java.lang.NullPointerException
+	at br.com.ti365.POMEventQueue.service.impl.RabbitConnectionServiceImpl.publish(RabbitConnectionServiceImpl.java:49)
+	at br.com.ti365.POMEventQueue.service.impl.PomEventServiceImpl.onEvent(PomEventServiceImpl.java:22)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.setOnEventForEventListener(EnrichedAttemptResultConsumerThread.java:115)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.transformEnrichedAttemptObject(EnrichedAttemptResultConsumerThread.java:94)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.run(EnrichedAttemptResultConsumerThread.java:46)
+
+-----------------------------------------------------
+ 
+[2022-03-17 15:03:28,518] ERROR [EnrichedAttemptConsumerThread] LoggerImpl.error:81 - Error in EnrichedAttemptResultEventConsumerCallback 
+-----------------------------------------------------
+java.lang.NullPointerException
+	at br.com.ti365.POMEventQueue.service.impl.RabbitConnectionServiceImpl.publish(RabbitConnectionServiceImpl.java:49)
+	at br.com.ti365.POMEventQueue.service.impl.PomEventServiceImpl.onEvent(PomEventServiceImpl.java:22)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.setOnEventForEventListener(EnrichedAttemptResultConsumerThread.java:115)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.transformEnrichedAttemptObject(EnrichedAttemptResultConsumerThread.java:94)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.run(EnrichedAttemptResultConsumerThread.java:46)
+
+-----------------------------------------------------
+ 
+[2022-03-17 15:03:28,519] ERROR [EnrichedAttemptConsumerThread] LoggerImpl.error:81 - Error in EnrichedAttemptResultEventConsumerCallback 
+-----------------------------------------------------
+java.lang.NullPointerException
+	at br.com.ti365.POMEventQueue.service.impl.RabbitConnectionServiceImpl.publish(RabbitConnectionServiceImpl.java:49)
+	at br.com.ti365.POMEventQueue.service.impl.PomEventServiceImpl.onEvent(PomEventServiceImpl.java:22)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.setOnEventForEventListener(EnrichedAttemptResultConsumerThread.java:115)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.transformEnrichedAttemptObject(EnrichedAttemptResultConsumerThread.java:94)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.run(EnrichedAttemptResultConsumerThread.java:46)
+
+-----------------------------------------------------
+ 
+[2022-03-17 15:03:28,519] ERROR [EnrichedAttemptConsumerThread] LoggerImpl.error:81 - Error in EnrichedAttemptResultEventConsumerCallback 
+-----------------------------------------------------
+java.lang.NullPointerException
+	at br.com.ti365.POMEventQueue.service.impl.RabbitConnectionServiceImpl.publish(RabbitConnectionServiceImpl.java:49)
+	at br.com.ti365.POMEventQueue.service.impl.PomEventServiceImpl.onEvent(PomEventServiceImpl.java:22)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.setOnEventForEventListener(EnrichedAttemptResultConsumerThread.java:115)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.transformEnrichedAttemptObject(EnrichedAttemptResultConsumerThread.java:94)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.run(EnrichedAttemptResultConsumerThread.java:46)
+
+-----------------------------------------------------
+ 
+[2022-03-17 15:03:28,519] ERROR [EnrichedAttemptConsumerThread] LoggerImpl.error:81 - Error in EnrichedAttemptResultEventConsumerCallback 
+-----------------------------------------------------
+java.lang.NullPointerException
+	at br.com.ti365.POMEventQueue.service.impl.RabbitConnectionServiceImpl.publish(RabbitConnectionServiceImpl.java:49)
+	at br.com.ti365.POMEventQueue.service.impl.PomEventServiceImpl.onEvent(PomEventServiceImpl.java:22)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.setOnEventForEventListener(EnrichedAttemptResultConsumerThread.java:115)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.transformEnrichedAttemptObject(EnrichedAttemptResultConsumerThread.java:94)
+	at com.avaya.pim.eventsdk.consumer.EnrichedAttemptResultConsumerThread.run(EnrichedAttemptResultConsumerThread.java:46)
+
+-----------------------------------------------------
+ 
